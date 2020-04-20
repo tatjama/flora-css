@@ -27,35 +27,29 @@ html body {
 }
 #centar {
     position: relative;
+    display: flex;
+    flex-direction: column;
     top: 26%;
     left: 1%;
+    align-items: center;
+    justify-content: space-between;
 }
 .ornament {
     width: 20%;
+    margin: 20px;
 }
 #donji {
-    transform: rotate(180deg);    
-    position: relative;
-    top: 145px;
-    left: -300px;
+    transform: rotate(180deg);     
 }
-h1 {
-    position: relative;
+h1 {    
     font-size: 8em;
 }
-h4 {
-    position: relative;
-    left: 210px;
-    top: -100px;
+h4 {  
     font-size: 1.6rem;
 }
-#strelica {
-    position: relative;
-    top: 250px;
-    left: -515px;
+#strelica {   
     width: 10%;
-    height: 10%;
-    padding: 20px;
+    height: 10%;   
 }
 #srednji {
     width: 100%;
@@ -158,22 +152,19 @@ footer {
     }
     .ornament{
         width: 30%;
+        margin: 0px;
     }
     h1{
         font-size: 3.5em;
     }
     h4{
-       font-size: 0.7em;
-        top: -25px;
-        left:75px;
+       font-size: 0.7em;        
     }
     #donji{
-        left: -120px;
-        top: 50px;
+        
     }
     #strelica{
-        top: 80px;
-        left: -200px;
+        
     }
     #srednji{
         height: 100%;
