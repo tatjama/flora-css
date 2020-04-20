@@ -59,7 +59,7 @@ h4 {
 }
 #srednji {
     width: 100%;
-    height: 40%;
+    height: 780px;
     background-position: center;
     box-sizing: border-box;
     align-content: center;
@@ -153,26 +153,43 @@ footer {
     #pozadina{
         height: 215px;
     }
+    #centar{
+        top: 10%;
+    }
+    .ornament{
+        width: 30%;
+    }
     h1{
-        font-size: 3em;
+        font-size: 3.5em;
     }
     h4{
-       font-size: 0.75em;
+       font-size: 0.7em;
         top: -25px;
-        left:70px;
+        left:75px;
     }
     #donji{
-        left: -100px;
-        top: 40px;
+        left: -120px;
+        top: 50px;
     }
     #strelica{
         top: 80px;
-        left: -170px;
+        left: -200px;
+    }
+    #srednji{
+        height: 100%;
     }
     #slike{
         flex-direction: column;
+        justify-content: space-around;
     }
     .cvece{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #uslovi{
+        flex-direction: column;
+    }
+    .uslovi{
         width: 100%;
     }
 }
