@@ -11,14 +11,12 @@
 html body {   
     overflow-x: hidden;
 }
-#omotac {
-   height: 1957px;
+#omotac {  
     width: 1366px;
 }
 #pozadina {
     background-image: url("slike/background.jpg");
-    height: 40%;
-    width: 100%;
+    height: 780px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,12 +30,11 @@ html body {
     top: 22%;
     left: 1%;
 }
-#ornament {
+.ornament {
     width: 20%;
 }
 #donji {
-    transform: rotate(180deg);
-    width: 20%;
+    transform: rotate(180deg);    
     position: relative;
     top: 150px;
     left: -300px;
@@ -147,4 +144,20 @@ footer {
     color: white;
     text-align: center;
     border: solid 2px lightgrey;
+}
+@media screen and (max-width: 375px){
+    #omotac{
+        width: 377px;        
+    }
+    #pozadina{
+        height: 215px;
+    }
+    h1{
+        font-size: 2em;
+    }
+    #donji{
+        left: -400px;
+        
+    }
+    
 }
