@@ -27,7 +27,7 @@ html body {
 }
 #centar {
     position: relative;
-    top: 22%;
+    top: 26%;
     left: 1%;
 }
 .ornament {
@@ -36,7 +36,7 @@ html body {
 #donji {
     transform: rotate(180deg);    
     position: relative;
-    top: 150px;
+    top: 145px;
     left: -300px;
 }
 h1 {
@@ -45,14 +45,14 @@ h1 {
 }
 h4 {
     position: relative;
-    left: 250px;
-    top: -120px;
-    font-size: x-large;
+    left: 210px;
+    top: -100px;
+    font-size: 1.6rem;
 }
 #strelica {
     position: relative;
     top: 250px;
-    left: -550px;
+    left: -515px;
     width: 10%;
     height: 10%;
     padding: 20px;
@@ -86,6 +86,7 @@ p {
     padding: 1%;
     border: 2px solid lightgray;
     box-shadow: 2px 2px 2px 4px lightgray;
+    
 }
 .ponuda {
     display: flex;
@@ -155,9 +156,23 @@ footer {
     h1{
         font-size: 2em;
     }
-    #donji{
-        left: -400px;
-        
+    h4{
+       font-size: 0.5em;
+        top: -25px;
+        left:70px;
     }
-    
+    #donji{
+        left: -100px;
+        top: 40px;
+    }
+    #strelica{
+        top: 80px;
+        left: -170px;
+    }
+    #slike{
+        flex-direction: column;
+    }
+    .cvece{
+        width: 100%;
+    }
 }
