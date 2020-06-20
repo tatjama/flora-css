@@ -140,7 +140,7 @@ footer {
     text-align: center;
     border: solid 2px lightgrey;
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 420px){
     #omotac{
         width: 377px;        
     }
